@@ -7,4 +7,6 @@ test('login testrcase', async ({page,loginPage})=>{
     await page.goto("https://rahulshettyacademy.com/client");
     await loginPage.login(testdata.username,testdata.password);
 
+    //login Test
+
 });      
