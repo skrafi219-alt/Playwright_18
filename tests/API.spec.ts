@@ -56,7 +56,7 @@ test('API Login TestCase', async ({page})=>{
     console.log(orderstitle)
     await expect(page.locator("text='Automation Practice'")).toHaveText("Automation Practice");
 
-    await page.pause();
+    
     
 
 });
